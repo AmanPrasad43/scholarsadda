@@ -1,0 +1,1150 @@
+
+
+    <div id="travel-popup" class="mfp-hide">
+        <div class="travel-wrapper">
+            <div class="travel-ttl">
+                <p>Travel Insurance</p>
+            </div>
+            <div class="travel-container">
+                <div class="travel-date">
+                    <div id="travel-date-icon" class="travel-sub-ttl">Select Dates</div>
+                    <div class="travel-date-container">
+                        <div class="travel-date-block">
+                            <label>Trip Start Date</label>
+                            <input type="date" id="travel-start" value="" placeholder="Start Date" />
+                        </div>
+                        <div class="travel-date-block">
+                            <label>Trip End Date</label>
+                            <input type="date" id="travel-end" value="" placeholder="End Date" />
+                        </div>
+                    </div>
+                </div>
+                <div class="travel-country">
+                    <div id="travel-country-icon" class="travel-sub-ttl">Select Dates</div>
+                    <div class="travel-date-container">
+                        <div class="travel-date-block travel-country-block">
+                            <label>Travelling To</label>
+                            <input type="text" id="travelling-to" value="" placeholder="Location" />
+                        </div>
+                    </div>
+                </div>
+                <div class="travel-detail">
+                    <div id="travel-detail-icon" class="travel-sub-ttl">Traveller Details</div>
+                    <div class="travel-detail-block travel-detail-first">
+                        <div class="travel-date-block travel-detail-first-input">
+                            <label>How Many People?</label>
+                            <input type="number" id="travel-people" value="" placeholder="Number of People" />
+                        </div>
+                        <div class="travel-date-block travel-detail-first-senior">
+                            <label>Adult</label>
+                            <input type="number" id="travel-adult" value="" placeholder="Number of People" />
+                        </div>
+                    </div>
+                    <div class="travel-detail-block travel-detail-second">
+                        <div class="travel-date-block travel-detail-second-input">
+                            <label>Senior Citizen</label>
+                            <input type="number" id="travel-senior" value="" placeholder="Number of People" />
+                        </div>
+                        <div class="travel-date-block travel-detail-second-senior">
+                            <label>Child</label>
+                            <input type="number" id="travel-child" value="" placeholder="Number of People" />
+                        </div>
+                    </div>
+                </div>
+                <div class="travel-trip">
+                    <div class="travel-trip-block">
+                        <div class="travel-trip-block-inner">
+                            <div class="travel-trip-left">
+                                <p>Is this trip starting from India?</p>
+                            </div>
+                            <div class="travel-trip-right">
+                                <div class="travel-trip-radio">
+                                    <div>
+                                        <input type="radio" name="tripfromindia" id="tripfromindia_yes" />
+                                        <label for="tripfromindia_yes">
+                                            <span></span>
+                                            Yes
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="tripfromindia" id="tripfromindia_no" />
+                                        <label for="tripfromindia_no">
+                                            <span></span>
+                                            No
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="travel-trip-block">
+                        <div class="travel-trip-block-inner">
+                            <div class="travel-trip-left">
+                                <p>Are travellers resident of India?</p>
+                            </div>
+                            <div class="travel-trip-right">
+                                <div class="travel-trip-radio">
+                                    <div>
+                                        <input type="radio" name="residentindia" id="residentindia_yes" />
+                                        <label for="residentindia_yes">
+                                            <span></span>
+                                            Yes
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="residentindia" id="residentindia_no" />
+                                        <label for="residentindia_no">
+                                            <span></span>
+                                            No
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="travel-continue">
+                    <a href="#">Continue</a>
+                </div>
+            </div>
+            <div class="travel-user-container">
+                <div class="travel-user-block">
+                    <div id="travel-trip-detail" class="travel-sub-ttl">
+                        Trip Details
+                        <a href="#" id="travel-back">Edit</a>
+                    </div>
+                    <div class="travel-user-data">
+                        <img src="Images/Travel/icon-trip-starts.png" />
+                        <span>Trip Start Date</span>
+                        <p>20 - DEC - 2016</p>
+                    </div>
+                    <div class="travel-user-data">
+                        <img src="Images/Travel/icon-end-trip.png" />
+                        <span>Travelling To</span>
+                        <p>31 - DEC - 2016</p>
+                    </div>
+                    <div class="travel-user-data">
+                        <img src="Images/Travel/icon-travelling.png" />
+                        <span>Trip Start Date</span>
+                        <p>USA, Germany</p>
+                    </div>
+                    <div class="travel-user-data">
+                        <img src="Images/Travel/icon-people.png" />
+                        <span>People</span>
+                        <p>4 Traveller</p>
+                    </div>
+                </div>
+                <div class="travel-user-block">
+                    <div id="travel-user-detail" class="travel-sub-ttl">User Details</div>
+                    <div class="travel-user-input travel-user-input-double">
+                        <label>First Name</label>
+                        <input type="text" id="travel-fname" value="" placeholder="Enter First Name" />
+                    </div>
+                    <div class="travel-user-input travel-user-input-double">
+                        <label>Last Name</label>
+                        <input type="text" id="travel-lname" value="" placeholder="Enter Last Name" />
+                    </div>
+                    <div class="travel-user-input">
+                        <label>Email Address</label>
+                        <input type="text" id="travel-email" value="" placeholder="Enter Email Address" />
+                    </div>
+                    <div class="travel-user-input">
+                        <label>Contact Number</label>
+                        <input type="text" id="travel-mobile" value="" placeholder="Enter Contact Number" />
+                    </div>
+                </div>
+                <div class="travel-user-quote">
+                    <button>Request Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gadgetpop" class="mfp-hide">
+        <div class="carpop-wrapper">
+            <div class="carpop-ttl gadgetpop-ttl">
+                <p>Gadget Insurance</p>
+            </div>
+            <div id="gadgetpop-container" class="carpop-container">
+                <div class="carpop-carselect">
+                    <div id="gadgetpop-mobile-icon" class="carpop-sub-ttl">Gadget Details</div>
+                    <div class="carpop-block">
+                        <div id="gadgetpop-gadget-type" class="carpop-input">
+                            <label>Gadget Type</label>
+                            <input type="text" value="" placeholder="Select Gadget Type list" />
+                        </div>
+                        <div id="gadgetpop-gadget-list" class="carpop-list">
+                            <div class="carpop-list-ttl">Popular gadget</div>
+                            <div class="car-list-container">
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="gadget-type" value="mobile" id="mobile" />
+                                    <label for="mobile">Mobile</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="gadget-type" value="tablet" id="tablet" />
+                                    <label for="tablet">Tablet</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="gadget-type" value="iPod" id="iPod" />
+                                    <label for="iPod">iPod</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carpop-block">
+                        <div id="gadgetpop-gadget-model" class="carpop-input">
+                            <label>Gadget Brand</label>
+                            <input type="text" value="" placeholder="Select Model from the list" disabled />
+                        </div>
+                        <div id="gadget-brand-list" class="carpop-list">
+                            <div class="carpop-list-ttl">Popular Brand</div>
+                            <div class="car-list-container">
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="gadget-brand" value="apple" id="apple" />
+                                    <label for="apple">Apple</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="gadget-brand" value="sony" id="sony" />
+                                    <label for="sony">Sony</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="gadget-brand" value="mi" id="mi" />
+                                    <label for="mi">Mi</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="carpop-block">
+                        <div id="gadgetpop-gadget-model" class="carpop-input">
+                            <label>Gadget Model</label>
+                            <input type="text" value="" placeholder="Please Select Registration Year" maxlength="4" disabled />
+                        </div>
+                        <div id="gadget-model-list" class="carpop-list">
+                            <div class="carpop-list-ttl">Popular Model</div>
+                            <div class="car-list-container">
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="gadget-model" value="iPhonepls256" id="iPhonepls256" />
+                                    <label for="iPhonepls256">iPhonepls 256 gb</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="gadget-model" value="iPhonepls512" id="iPhonepls512" />
+                                    <label for="iPhonepls512">iPhonepls 512 gb</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carpop-block">
+                        <div id="gadgetpop-gadget-cost" class="carpop-input">
+                            <label>Gadget Cost</label>
+                            <input type="text" value="" placeholder="Gadget Cost" readonly disabled />
+                        </div>
+                        <div id="gadget-cost-list" class="carpop-list">
+                            <div class="carpop-list-ttl">Gadget Cost?</div>
+                            <div class="car-list-container">
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="gadget-cost" value="10,000 - 20,000" id="10k-20k" />
+                                    <label for="10k-20k">10,000 - 20,000</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="gadget-cost" value="20,000 - 30,000" id="20k-30k" />
+                                    <label for="20k-30k">20,000 - 30,000</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="gadget-cost" value="30,000 - 40,000" id="30k-40k" />
+                                    <label for="30k-40k">30,000 - 40,000</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carpop-carselect">
+                    <div id="gadgetpop-trip-icon" class="carpop-sub-ttl">Purchase Details</div>
+                    <div class="carpop-block">
+                        <div id="" class="carpop-input">
+                            <label>Purchase Type</label>
+                            <input type="text" id="gadget-purchase-type" value="" placeholder="Ex: Online Store" />
+                        </div>
+                    </div>
+                    <div class="carpop-block">
+                        <div id="" class="carpop-input">
+                            <label>Purchase Date</label>
+                            <input type="date" id="gadget-purchase-date" value="" placeholder="Date" />
+                        </div>
+                    </div>
+                </div>
+                <div class="carpop-continue gadgetpop-continue">
+                    <a id="gadgetpop-continue">Continue</a>
+                </div>
+            </div>
+            <div class="gadgetpop-user-container">
+                <div class="travel-user-block">
+                    <div id="travel-trip-detail" class="travel-sub-ttl">
+                        Gadget Details
+                        <a href="#" id="gadget-back">Edit</a>
+                    </div>
+                    <div class="travel-user-data">
+                        <span>Gadget Brand</span>
+                        <p>Apple</p>
+                    </div>
+                    <div class="travel-user-data">
+                        <span>Gadget Model</span>
+                        <p>iPhone 7 plus 256GB</p>
+                    </div>
+                    <div class="travel-user-data">
+                        <span>Gadget Cost</span>
+                        <p>&#8377; 70,000 - 90,000</p>
+                    </div>
+                    <div class="travel-user-data">
+                        <span>Purchase Date</span>
+                        <p>1 - JAN - 2017</p>
+                    </div>
+                </div>
+                <div class="travel-user-block">
+                    <div id="travel-user-detail" class="travel-sub-ttl">User Details</div>
+                    <div class="travel-user-input travel-user-input-double">
+                        <label>First Name</label>
+                        <input type="text" id="gadget-fname" value="" placeholder="Enter First Name" />
+                    </div>
+                    <div class="travel-user-input travel-user-input-double">
+                        <label>Last Name</label>
+                        <input type="text" id="gadget-lname" value="" placeholder="Enter Last Name" />
+                    </div>
+                    <div class="travel-user-input">
+                        <label>Email Address</label>
+                        <input type="text" id="gadget-email" value="" placeholder="Enter Email Address" />
+                    </div>
+                    <div class="travel-user-input">
+                        <label>Contact Number</label>
+                        <input type="text" id="gadget-mobile" value="" placeholder="Enter Contact Number" />
+                    </div>
+                </div>
+                <div class="gadget-user-quote">
+                    <button>Request Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carpop" class="animated bounceInUp mfp-hide">
+        <div class="carpop-wrapper">
+            <div class="carpop-ttl">
+                <p>Car Insurance</p>
+                <div class="carpop-link">
+                    
+                    
+                </div>
+            </div>
+            <div id="carpop-know-container" class="carpop-container" style="text-align: left">
+                
+                <div class="carpop-know-block">
+                    <div id="carpop-car-icon" class="carpop-sub-ttl">Previous Policy Details</div>
+                    <div class="carpop-know-prev-block">
+                        <label>Have you bought new Car?</label>
+                        <div class="carpop-know-prev">
+                            <div>
+                                <input type="radio" value="Yes" name="carpop-know-bought" id="carpop-bought-yes" />
+                                <label for="carpop-bought-yes"><span></span>Yes</label>
+                            </div>
+                            <div>
+                                <input type="radio" value="No" name="carpop-know-bought" id="carpop-bought-no" />
+                                <label for="carpop-bought-no"><span></span>No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carpop-know-prev-block carpop-no-bought">
+                        <label>Is your Car policy expired?</label>
+                        <div class="carpop-know-prev">
+                            <div>
+                                <input type="radio" value="0" name="carpop-know-expire" id="carpop-notyet" />
+                                <label for="carpop-notyet"><span></span>Not yet expired</label>
+                            </div>
+                            <div>
+                                <input type="radio" value="more than 90" name="carpop-know-expire" id="carpop-morethan90" />
+                                <label for="carpop-morethan90"><span></span>Expired for more than 90 days</label>
+                            </div>
+                            <div>
+                                <input type="radio" value="less than 90" name="carpop-know-expire" id="carpop-lessthan90" />
+                                <label for="carpop-lessthan90"><span></span>Expired for less than 90 days</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carpop-know-prev-block carpop-no-bought">
+                        <label>Have you made claim in the prevoius year?</label>
+                        <div class="carpop-know-prev carpop-know-claim">
+                            <div>
+                                <input type="radio" value="Yes" name="carpop-know-claim" id="carpop-claim-yes" />
+                                <label for="carpop-claim-yes"><span></span>Yes, I did.</label>
+                            </div>
+                            <div>
+                                <input type="radio" value="No" name="carpop-know-claim" id="carpop-claim-no" />
+                                <label for="carpop-claim-no"><span></span>No, I didn't</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carpop-continue">
+                    <a id="carpop-know-continue">Continue</a>
+                </div>
+            </div>
+            <div id="carpop-notknow-container" class="carpop-container">
+                <div class="carpop-carselect"  style="position: relative">
+                    <div id="carpop-car-icon" class="carpop-sub-ttl">Car Details</div>
+                    <div class="carpop-block">
+                        <div id="carpop-car-type" class="carpop-input">
+                            <label>Your Car</label>
+                            <input type="text" value="" placeholder="Select Car from list" />
+                        </div>
+                        <div id="carpop-list-cars" class="carpop-list">
+                            <div class="carpop-list-ttl">Popular Cars</div>
+                            <div class="car-list-container">
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-type" value="HYUNDAI" id="i20" />
+                                    <label for="i20">HYUNDAI</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-type" value="HONDA" id="wagon" />
+                                    <label for="wagon">HONDA</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-type" value="MARUTI SUZUKI" id="swift" />
+                                    <label for="swift">MARUTI</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-type" value="TOYOTA" id="santro_xing" />
+                                    <label for="santro_xing">TOYOTA</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-type" value="AUDI" id="grand_i10" />
+                                    <label for="grand_i10">AUDI</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-type" value="FIAT" id="alto" />
+                                    <label for="alto">FIAT</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-type" value="FORD" id="dzire" />
+                                    <label for="dzire">FORD</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-type" value="MAHINDRA RENAULT PVT LTD." id="dzire" />
+                                    <label for="dzire">MAHINDRA</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-type" value="TATA MOTORS" id="tata" />
+                                    <label for="tata">TATA</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-type" value="CHEVROLET" id="chevrolet" />
+                                    <label for="cheverlet">CHEVROLET</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-type" value="RENAULT" id="renault" />
+                                    <label for="renault">RENAULT</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-type" value="NISSAN" id="nissan" />
+                                    <label for="nissan">NISSAN</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carpop-block">
+                        <div id="carpop-car-modal" class="carpop-input">
+                            <label>Car Model</label>
+                            <input type="text" value="" placeholder="Select Model from the list" disabled />
+                        </div>
+                        <div id="carpop-list-modal" class="carpop-list">
+                            <div class="carpop-list-ttl">Popular Models</div>
+                            <div class="car-list-container">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carpop-block">
+                        <div id="carpop-car-year" class="carpop-input">
+                            <label>Car Registration Year</label>
+                            <input type="text" value="" placeholder="Please Select Registration Year" maxlength="4" disabled />
+                        </div>
+                        <div id="carpop-list-year" class="carpop-list">
+                            <div class="carpop-list-ttl">When was your Car registered?</div>
+                            <div class="car-list-container">
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-register" value="2017" id="carpop_2017" />
+                                    <label for="carpop_2017">2017</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-register" value="2016" id="carpop_2016" />
+                                    <label for="carpop_2016">2016</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-register" value="2015" id="carpop_2015" />
+                                    <label for="carpop_2015">2015</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-register" value="2014" id="carpop_2014" />
+                                    <label for="carpop_2014">2014</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-register" value="2013" id="carpop_2013" />
+                                    <label for="carpop_2013">2013</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-register" value="2012" id="carpop_2012" />
+                                    <label for="carpop_2012">2012</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-register" value="2011" id="carpop_2011" />
+                                    <label for="carpop_2011">2011</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-register" value="2010" id="carpop_2010" />
+                                    <label for="carpop_2010">2010</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-register" value="2009" id="carpop_2009" />
+                                    <label for="carpop_2009">2009</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-register" value="2008" id="carpop_2008" />
+                                    <label for="carpop_2008">2008</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-register" value="2007" id="carpop_2007" />
+                                    <label for="carpop_2007">2007</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-register" value="2006" id="carpop_2006" />
+                                    <label for="carpop_2006">2006</label>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carpop-block">
+                        <div id="carpop-car-city" class="carpop-input">
+                            <label>Car Registration City</label>
+                            <input type="text" value="" placeholder="Car Registration City" disabled />
+                        </div>
+                        <div id="carpop-list-city" class="carpop-list">
+                            <div class="carpop-list-ttl">Where was your Car registered?</div>
+                            <div class="car-list-container">
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-city" value="Pune" id="carpop_pune" />
+                                    <label for="carpop_pune">Pune</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-city" value="Mumbai" id="carpop_mumbai" />
+                                    <label for="carpop_mumbai">Mumbai</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-city" value="Nagpur" id="carpop_nagpur" />
+                                    <label for="carpop_nagpur">Nagpur</label>
+                                </div>
+                                <div class="carpop-list-block">
+                                    <input type="radio" name="car-city" value="Nasik" id="carpop_delhi" />
+                                    <label for="carpop_delhi">Nasik</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carpop-notknow-prev">
+                    <div id="carpop-car-icon" class="carpop-sub-ttl">Previous Policy Details</div>
+                    <div class="carpop-notknow-prev-block">
+                        <label>Is your Car policy expired?</label>
+                        <div class="carpop-know-prev">
+                            <div>
+                                <input type="radio" value="" name="carpop-notknow-expire" id="carpop-notknow-notyet" />
+                                <label for="carpop-notknow-notyet"><span></span>Not yet expired</label>
+                            </div>
+                            <div>
+                                <input type="radio" value="" name="carpop-notknow-expire" id="carpop-notknow-morethan90" />
+                                <label for="carpop-notknow-morethan90"><span></span>Expired for more than 90 days</label>
+                            </div>
+                            <div>
+                                <input type="radio" value="" name="carpop-notknow-expire" id="carpop-notknow-lessthan90" />
+                                <label for="carpop-notknow-lessthan90"><span></span>Expired for less than 90 days</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carpop-notknow-prev-block">
+                        <label>Have you made claim in the prevoius year?</label>
+                        <div class="carpop-know-prev carpop-know-claim">
+                            <div>
+                                <input type="radio" value="" name="carpop-notknow-claim" id="carpop-notknow-claim-yes" />
+                                <label for="carpop-notknow-claim-yes"><span></span>Yes, I did.</label>
+                            </div>
+                            <div>
+                                <input type="radio" value="" name="carpop-notknow-claim" id="carpop-notknow-claim-no" />
+                                <label for="carpop-notknow-claim-no"><span></span>No, I didn't</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carpop-continue-back">
+                    <a id="carpop-know-back">Back</a>
+                </div>
+                <div class="carpop-continue">
+                    <a id="carpop-notknow-continue">Continue</a>
+                </div>
+            </div>
+            <div class="carpop-user">
+                <div class="carpop-user-block">
+                    <div id="carpop-car-icon" class="carpop-sub-ttl">
+                        Car Details
+                        <a id="carpop-notknow-back">Edit</a>
+                        <a id="carpop-bought-back">Edit</a>
+                    </div>
+                    <div class="carpop-user-data carpop-user-data-modal">
+                        <img src="Images/Travel/icon-trip-starts.png" />
+                        <span>Car Name & Model</span>
+                        <p id="carpop-user-make">Wagon R<br /> Petrol <br />VXI(988C)</p>
+                    </div>
+                    <div class="carpop-user-data">
+                        <img src="Images/Travel/icon-trip-starts.png" />
+                        <span>City</span>
+                        <p id="carpop-user-city">Mumbai</p>
+                    </div>
+                    <div class="carpop-user-data">
+                        <img src="Images/Travel/icon-trip-starts.png" />
+                        <span>Year</span>
+                        <p id="carpop-user-year">2015</p>
+                    </div>
+                </div>
+                <div class="carpop-user-block">
+                    <div id="carpop-user-icon" class="travel-sub-ttl">User Details</div>
+                    <div class="carpop-user-input carpop-user-input-double">
+                        <label>First Name</label>
+                        <input type="text" id="carpop-user-first-name" value="" placeholder="Enter First Name" />
+                    </div>
+                    <div class="carpop-user-input carpop-user-input-double">
+                        <label>Last Name</label>
+                        <input type="text" id="carpop-user-last-name" value="" placeholder="Enter Last Name" />
+                    </div>
+                    <div class="carpop-user-input">
+                        <label>Email Address</label>
+                        <input type="text" id="carpop-user-email" value="" placeholder="Enter Email Address" />
+                    </div>
+                    <div class="carpop-user-input">
+                        <label>Contact Number</label>
+                        <input type="text" id="carpop-user-mobile" value="" placeholder="Enter Contact Number" maxlength="10" />
+                    </div>
+                </div>
+                <div class="carpop-continue-back">
+                    <a id="carpop-user-back">Back</a>
+                </div>
+                <div class="carpop-user-quote">
+                    <button>Request Quote</button>
+                </div>
+            </div>
+            <div class="carpop-thank">
+                <span></span>
+                <p>
+                    Your request for <text id="make-model"></text> has been recieved. We will get back to you with best quotes shortly.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactpop" class="mfp-hide">
+        <div class="carpop-wrapper">
+            <div class="carpop-ttl">
+                <p>Get In Touch</p>
+                <div class="carpop-link">
+                </div>
+            </div>
+            <div class="contact-thank">
+                <span></span>
+                <p>
+                    Thank you for contacting us. We will get back to you shortly.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+<div class="bnnr-wrapper">
+    <div class="div-full bnnr">
+        <div class="bnnr-txt animated slideInDown">
+            <h1>Insurance Made Easy!</h1>
+        </div>
+        <div class="bnnr-type">
+            <div class="bnnr-type-comm">
+                <div class="disabled">
+                    <a id="bnnr-travel" class="animated fadeIn">Travel</a>
+                </div>
+                <p class="bnnr-tooltip">Coming Soon!</p>
+            </div>
+            <div class="bnnr-type-comm disabled">
+                <div class="disabled">
+                    <a id="bnnr-gadget" class="animated fadeIn">Gadget</a>
+                </div>
+                <p class="bnnr-tooltip">Coming Soon!</p>
+            </div>
+            <div class="bnnr-type-comm">
+                <a href="home/car.html" id="bnnr-car" class="animated fadeIn">Car</a>
+            </div>
+            <div class="bnnr-type-comm disabled">
+                <div class="disabled">
+                    <a id="bnnr-health" class="animated fadeIn">Health</a>
+                </div>
+                <p class="bnnr-tooltip">Coming Soon!</p>
+            </div>
+            <div class="bnnr-type-comm disabled">
+                <div class="disabled">
+                    <a id="bnnr-startup" class="animated fadeIn">Startup</a>
+                </div>
+                <p class="bnnr-tooltip">Coming Soon!</p>
+            </div>
+        </div>
+        <div class="bnnr-quote">
+            <a class="animated slideInUp">Get Quote</a>
+        </div>
+        <div class="bnnr-five">
+            <div class="bnnr-five-question">
+                <a></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bdy">
+    
+    <div class="hm-about">
+        <div class="div-center">
+            <div class="hm-about-block animated sliderfadeInUp">
+                <div>
+                    <img src="Images/Home/Best-Prices-Guaranteed.png" />
+                    <span>Killer Prices</span>
+                    <p>Get Superior Coverage<br /> And Best Rates</p>
+                    <a id="bestPrice">Explore More</a>
+                </div>
+            </div>
+            <div class="hm-about-block animated sliderfadeInUp">
+                <div>
+                    <img class="hm-about-claims-art" src="Images/claims/car-delivery.png" />
+                    <img class="hm-about-claims" src="Images/EasyClaimLogoBlack.png" />
+                    <p>Experience Quick And <br />Hassle-free Claims</p>
+                    <a href="home/claims.html">Explore More</a>
+                </div>
+            </div>
+            <div class="hm-about-block animated sliderfadeInUp">
+                <div>
+                    <img class="hm-about-elite-art" src="Images/Home/car-elite-hero.png" />
+                    <img class="hm-about-elite" src="Images/EliteLogoBlack.png" />
+                    <p>Bespoke Insurance For <br />Your Luxury Car</p>
+                    <a href="home/elite.html">Explore More</a>
+                </div>
+            </div>
+            <div class="hm-about-block animated sliderfadeInUp">
+                <div>
+                    <img src="Images/Home/Your-Personal-Concierge.png" />
+                    <span>Easy Everything</span>
+                    <p>Meet Your Personal Concierge</p>
+                    <a id="pesonalConcierge">Explore More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="div-center">
+        <div class="hm-layer-light animated-control">
+            <div class="hm-section-ttl animated  animated-control-down">How it Works</div>
+            <div class="howto-container">
+                
+                <div class="howto-block animated animated-control-up">
+                    <img src="Images/Home/basic-details.png" />
+                    <div class="howto-count">1</div>
+                    <span>It's About You</span>
+                    <p class="paragraph-medium paragraph-light-black">
+                        You tell us about your car and
+                        a little about yourself and your
+                        coverage needs
+                    </p>
+                </div>
+                
+                <div class="howto-block animated animated-control-up">
+                    <img src="Images/Home/tailored-quotes.png" />
+                    <div class="howto-count">2</div>
+                    <span>Get Instant Quotes</span>
+                    <p class="paragraph-medium paragraph-light-black">
+                        Get side-by-side quotes from
+                        top insurance companies for
+                        free!
+                    </p>
+                </div>
+                
+                <div class="howto-block animated animated-control-up">
+                    <img src="Images/Home/policy-recieved.png" />
+                    <div class="howto-count">3</div>
+                    <span>Select & Secure</span>
+                    <p class="paragraph-medium paragraph-light-black">
+                        Select your quote and secure
+                        your coverage right away with
+                        your personal concierge
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="sub-product">
+        <div id="sub-product-owl" class="owl-carousel owl-theme animated-control">
+            <div class="item animated">
+                <div class="sub-product-elite-wrapper">
+                    <div class="sub-product-left">
+                        <div class="sub-product-container">
+                            <div class="sub-product-ttl animated animated-control-right">Bespoke Insurance For Your Luxury Car</div>
+                            <div class="sub-product-art animated animated-control-scale">
+                                <img src="Images/car-elite-hero-home.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-product-right">
+                        <div class="sub-product-elite animated animated-control-right">
+                            <img src="Images/EliteLogoWhite-home.png" />
+                            <a href="home/elite.html">Explore Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="sub-product-claim-wrapper">
+                    <div class="sub-product-left">
+                        <div class="sub-product-container">
+                            <div class="sub-product-ttl animated animated-control-right">Claims Made<br /> Easy</div>
+                            <div class="sub-product-art animated animated-control-scale">
+                                <img src="Images/claims/car-delivery-1.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-product-right">
+                        <div class="sub-product-claim animated animated-control-right">
+                            <img src="Images/EasyClaimLogoWhite-home.png" />
+                            <a href="home/claims.html">Explore Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="hm-layer animated-control">
+        <div class="div-center">
+            <div class="hm-section-ttl animated animated-control-down">Compare Quotes From Top Insurers</div>
+            <div class="hm-description">
+                <p class="paragraph-xxlarge paragraph-dark-black animated animated-control-up">
+                    Your best bet to compare insurance rates
+                    across Insurance companies
+                </p>
+            </div>
+            <div class="hm-claims-company animated animated-control-up">
+                <img src="Images/insurance-company.png" />
+            </div>
+        </div>
+    </div>
+    
+    <div class="hm-layer testimonial">
+        <div class="div-center animated-control">
+            <div class="testimonial-ttl animated animated-control-down">A True Claims Story</div>
+            <div id="testimonial-container" class="owl-carousel owl-theme">
+                <div class="item testimonial-content animated animated-control-right">
+                    <div class="testimonial-descr">
+                        I recently had an accident driving on my own & the team was
+                        amazing. They took care of everything. Claiming was no problem, they were
+                        on the phone and in person constantly to see if all was OK. I can't
+                        recommend them enough. Absolutely fantastic & l will always drive with
+                        Koverup. Thanks guys for getting me home safely.
+                    </div>
+                    <div class="testimonial-name">Monika Kapoor</div>
+                    
+                </div>
+                <div class="item testimonial-content">
+                    <div class="testimonial-descr">
+                        This was the first time I ever purchased travel insurance and I am so glad I
+                        did. A few days into my trip to London I twisted my foot heading down to
+                        the metro. Thanks to Koverup I was able to get medical attention in London
+                        and since, as luck would have it, I had a fracture that required surgery, they
+                        got me a flight home the next day. Filing a claim was surprisingly easy and
+                        when the claim was finally processed, I was reimbursed for all of my
+                        expenses.
+                    </div>
+                    <div class="testimonial-name">Siddharth Mehta</div>
+                </div>
+                <div class="item testimonial-content">
+                    <div class="testimonial-descr">
+                        I have been with Koverup for many years. I will never forget how prompt
+                        they have been each time my wife and I have been involved in accidents.
+                        Not only with Car but also when burglars messed up my house! They had
+                        someone working there the next day. Thanks, team Koverup for the big
+                        heart!
+                    </div>
+                    <div class="testimonial-name">Aakash Jain</div>
+                </div>
+                <div class="item testimonial-content">
+                    <div class="testimonial-descr">
+                        Thank you for a hassle-free and easy claim experience after my son had his
+                        brand new car stolen. As you can imagine for a 21-year-old to have his 1st
+                        new vehicle stolen after two months was a very stressful time, but the team
+                        at Koverup were excellent and responded quickly to keep the stress levels
+                        down. Anyone with any doubts about Koverup shouldn't worry it may be
+                        something you don't think you should need but you do, and it's worth
+                        having.
+                    </div>
+                    <div class="testimonial-name">Richa Mehra</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="div-center animated-control">
+        <div class="hm-layer-light">
+            <div class="hm-section-ttl animated animated-control-down">Go Easy. Go Koverup.</div>
+            <div class="hm-gold-container">
+                <div class="hm-gold-block">
+                    <div class="hm-go-sub-ttl"><text class="counter">9,00,000</text> +</div>
+                    <span class="">HIGHEST PREMIUM PAID</span>
+                    <div class="animated animated-control-line horizantal-line"></div>
+                    <p class="paragraph-large paragraph-black">
+                        That's the level of confidence our users<br/>
+                        have in us.
+                    </p>
+                </div>
+                <div class="hm-gold-block">
+                    <div class="hm-go-sub-ttl"><text class="counter">1,00,00,000</text> +</div>
+                    <span>INSURANCE CLAIMS ASSISTED</span>
+                    <div class="animated animated-control-line horizantal-line"></div>
+                    <p class="paragraph-large paragraph-black">
+                        We have seen just about every type of<text class="mobile"></text>
+                        insurance claim there is.
+                    </p>
+                </div>
+                <div class="hm-gold-block hm-go-block">
+                    <img src="Images/Home/star-sales-support.png" />
+                    <span>Star Support</span>
+                    <div class="animated animated-control-line horizantal-line"></div>
+                    <p class="paragraph-large paragraph-black">
+                        Insurance is confusing, we’re here to
+                        help.
+                    </p>
+                </div>
+                <div class="hm-gold-block hm-go-block">
+                    <img src="Images/Home/smiles-more.png" />
+                    <span>Smiles & More</span>
+                    <div class="animated animated-control-line horizantal-line"></div>
+                    <p class="paragraph-large paragraph-black">
+                        10+ Years in the Industry.
+                        Loved by 1000+ Loyal Users.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="hm-layer">
+        <div class="div-center animated-control">
+            <div class="hm-section-ttl animated  animated-control-down">Insurance Is Confusing. We’re Here To Help.</div>
+            <div class="howto-container">
+                <div class="howto-block animated animated-control-up">
+                    <img src="Images/Home/confirmation-call.png" />
+                    <span>Expert Advice</span>
+                    <p class="paragraph-medium paragraph-light-black">
+                        Get answers you can
+                        trust from experienced
+                        insurance experts 
+                    </p>
+                </div>
+                <div class="howto-block animated animated-control-up">
+                    <img src="Images/Home/doorstep-payment.png" />
+                    <span>Totally Free</span>
+                    <p class="paragraph-medium paragraph-light-black">
+                        Save money for your
+                        insurance policy. Our
+                        advice is 100% free
+                    </p>
+                </div>
+                <div class="howto-block animated animated-control-up">
+                    <img src="Images/Home/stop-understand.png" />
+                    <span>Fast Answers</span>
+                    <p class="paragraph-medium paragraph-light-black">
+                        Your time is valuable.
+                        We’ll respond to your
+                        questions at express
+                        speed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div class="hm-layer-light">
+        <div class="div-center">
+            <div class="hm-section-ttl hm-payment-ttl">Payment Options</div>
+            <div class="hm-payment-container">
+                <div class="hm-payment-block">
+                    <img src="Images/Home/Payment%20Options.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="hm-question" class="animated bounceInUp">
+    <div class="hm-question-wrapper">
+        <div id="hm-question-carousel" class="owl-carousel owl-theme">
+            <div class="hm-question-block">
+                <div class="hm-question-icon">
+                    <img src="Images/Home/how-does-the-quote-look-like.png" />
+                </div>
+                <div class="hm-question-bdy">
+                    <div class="tbl">
+                        <div class="tbl-row">
+                            <div class="tbl-cell hm-question-count">
+                                <p>1.</p>
+                            </div>
+                            <div class="tbl-cell hm-question-text">
+                                <span>How does the quote look like ?</span>
+                                <p>
+                                    We source quotes from top insurance companies so
+                                    you can compare them side by side. We're
+                                    independent and don’t have a stake in matching
+                                    people with certain insurance companies, so we can
+                                    offer transparency and objective recommendations,
+                                    allowing you to review all your options and determine
+                                    the best fit for your needs, and allowing insurance
+                                    companies to match with the people they best serve.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hm-question-block">
+                <div class="hm-question-icon">
+                    <img src="Images/Home/how-do-i-pay.png" />
+                </div>
+                <div class="hm-question-bdy">
+                    <div class="tbl">
+                        <div class="tbl-row">
+                            <div class="tbl-cell hm-question-count">
+                                <p>2.</p>
+                            </div>
+                            <div class="tbl-cell hm-question-text">
+                                <span>How do i pay?</span>
+                                <p>
+                                    We strive to make things easy for you, so we offer a
+                                    variety of digital payment options to pay your
+                                    insurance premium from anywhere. For a hassle-free
+                                    payment experience, we do support cash, card, and
+                                    cheque on delivery at your doorstep at no extra cost.
+                                    We only accept payments in the name of the chosen
+                                    insurer, and you get an instant onward receipt. Be
+                                    assured of security, safety, and privacy. Now buy
+                                    confidently
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hm-question-block">
+                <div class="hm-question-icon">
+                    <img src="Images/Home/how-and-when-will-i-get-my-policy.png" />
+                </div>
+                <div class="hm-question-bdy">
+                    <div class="tbl">
+                        <div class="tbl-row">
+                            <div class="tbl-cell hm-question-count">
+                                <p>3.</p>
+                            </div>
+                            <div class="tbl-cell hm-question-text">
+                                <span>How and when will i get my policy?</span>
+                                <p>
+                                    With no long forms to fill and hassle-free payment
+                                    options, we ensure that your policy is quickly delivered
+                                    to your inbox and at your doorstep at no extra cost.
+                                    Your insurance papers should ride with you, wherever
+                                    you go. Failure to provide proof of insurance to a
+                                    police officer can result in a traffic ticket. Now get
+                                    access to all your policies at a single place by logging
+                                    in to your Koverup account.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hm-question-block">
+                <div class="hm-question-icon">
+                    <img src="Images/Home/who-do-you-talk-when-you-need-assistance.png" />
+                </div>
+                <div class="hm-question-bdy">
+                    <div class="tbl">
+                        <div class="tbl-row">
+                            <div class="tbl-cell hm-question-count">
+                                <p>4.</p>
+                            </div>
+                            <div class="tbl-cell hm-question-text">
+                                <span>Who do you talk when you need assistance?</span>
+                                <p>
+                                    Your Personal Concierge ensures you never have to
+                                    deal with the insurer personally. Confused about some
+                                    clause? Need something changed? Want to file a
+                                    claim? Don't know how it works? Don't worry! We will
+                                    help you resolve all your queries at every step, and we
+                                    will be on your side, always! From changes in your
+                                    policy to questions you are too scared to ask, we have
+                                    solutions for it all.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hm-question-block">
+                <div class="hm-question-icon">
+                    <img src="Images/Home/how-do-I-make-a-claim-request.png" />
+                </div>
+                <div class="hm-question-bdy">
+                    <div class="tbl">
+                        <div class="tbl-row">
+                            <div class="tbl-cell hm-question-count">
+                                <p>5.</p>
+                            </div>
+                            <div class="tbl-cell hm-question-text">
+                                <span>How do i make claim request?</span>
+                                <p>
+                                    You can count on us. Accidents happen, which is
+                                    exactly why you have insurance in the first place.
+                                    We’re here for you to help resolve your claims as
+                                    quickly as possible. We’re here to ensure that
+                                    everything runs smoothly. Once your claim is filed, you
+                                    will be matched with a claims professional who can
+                                    answer any questions you may have. They’ll help you
+                                    get back on the road as soon as possible!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hm-que-move hm-que-prev"></div>
+        <div class="hm-que-move hm-que-next"></div>
+    </div>
+    <div class="hm-question-close">
+        <p id="hm-question-close-icon">x</p>
+    </div>
+</div>
+
+
+
+  
